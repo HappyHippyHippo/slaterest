@@ -1,0 +1,1505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="0.9522727" branch-rate="0" lines-covered="419" lines-valid="440" branches-covered="0" branches-valid="0" complexity="0" version="" timestamp="1656078801738">
+	<packages>
+		<package name="github.com/happyhippyhippo/slaterest" line-rate="0.4878049" branch-rate="0" complexity="0" line-count="41" line-hits="20">
+			<classes>
+				<class name="-" filename="application.go" line-rate="0.71428573" branch-rate="0" complexity="0" line-count="14" line-hits="10">
+					<methods>
+						<method name="NewApplication" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="23" hits="2"></line>
+								<line number="28" hits="2"></line>
+								<line number="29" hits="2"></line>
+								<line number="30" hits="2"></line>
+								<line number="31" hits="2"></line>
+								<line number="32" hits="2"></line>
+								<line number="34" hits="2"></line>
+								<line number="38" hits="2"></line>
+								<line number="43" hits="2"></line>
+							</lines>
+						</method>
+						<method name="@34:47" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="35" hits="1"></line>
+							</lines>
+						</method>
+						<method name="@54:8" signature="" line-rate="0" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="55" hits="0"></line>
+								<line number="56" hits="0"></line>
+								<line number="57" hits="0"></line>
+								<line number="59" hits="0"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="23" hits="2"></line>
+						<line number="28" hits="2"></line>
+						<line number="29" hits="2"></line>
+						<line number="30" hits="2"></line>
+						<line number="31" hits="2"></line>
+						<line number="32" hits="2"></line>
+						<line number="34" hits="2"></line>
+						<line number="38" hits="2"></line>
+						<line number="43" hits="2"></line>
+						<line number="35" hits="1"></line>
+						<line number="55" hits="0"></line>
+						<line number="56" hits="0"></line>
+						<line number="57" hits="0"></line>
+						<line number="59" hits="0"></line>
+					</lines>
+				</class>
+				<class name="Application" filename="application.go" line-rate="0.055555556" branch-rate="0" complexity="0" line-count="18" line-hits="1">
+					<methods>
+						<method name="Engine" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="48" hits="1"></line>
+							</lines>
+						</method>
+						<method name="Run" signature="" line-rate="0" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="54" hits="0"></line>
+								<line number="64" hits="0"></line>
+								<line number="65" hits="0"></line>
+								<line number="68" hits="0"></line>
+								<line number="69" hits="0"></line>
+								<line number="70" hits="0"></line>
+								<line number="73" hits="0"></line>
+								<line number="74" hits="0"></line>
+								<line number="75" hits="0"></line>
+								<line number="78" hits="0"></line>
+								<line number="79" hits="0"></line>
+								<line number="80" hits="0"></line>
+								<line number="83" hits="0"></line>
+								<line number="84" hits="0"></line>
+								<line number="85" hits="0"></line>
+								<line number="86" hits="0"></line>
+								<line number="89" hits="0"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="48" hits="1"></line>
+						<line number="54" hits="0"></line>
+						<line number="64" hits="0"></line>
+						<line number="65" hits="0"></line>
+						<line number="68" hits="0"></line>
+						<line number="69" hits="0"></line>
+						<line number="70" hits="0"></line>
+						<line number="73" hits="0"></line>
+						<line number="74" hits="0"></line>
+						<line number="75" hits="0"></line>
+						<line number="78" hits="0"></line>
+						<line number="79" hits="0"></line>
+						<line number="80" hits="0"></line>
+						<line number="83" hits="0"></line>
+						<line number="84" hits="0"></line>
+						<line number="85" hits="0"></line>
+						<line number="86" hits="0"></line>
+						<line number="89" hits="0"></line>
+					</lines>
+				</class>
+				<class name="-" filename="container.go" line-rate="1" branch-rate="0" complexity="0" line-count="7" line-hits="7">
+					<methods>
+						<method name="GetEngine" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="11" hits="3"></line>
+								<line number="12" hits="3"></line>
+								<line number="13" hits="1"></line>
+								<line number="16" hits="2"></line>
+								<line number="17" hits="2"></line>
+								<line number="18" hits="1"></line>
+								<line number="20" hits="1"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="11" hits="3"></line>
+						<line number="12" hits="3"></line>
+						<line number="13" hits="1"></line>
+						<line number="16" hits="2"></line>
+						<line number="17" hits="2"></line>
+						<line number="18" hits="1"></line>
+						<line number="20" hits="1"></line>
+					</lines>
+				</class>
+				<class name="-" filename="errors.go" line-rate="1" branch-rate="0" complexity="0" line-count="2" line-hits="2">
+					<methods>
+						<method name="errNilPointer" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="9" hits="1"></line>
+							</lines>
+						</method>
+						<method name="errConversion" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="13" hits="2"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="9" hits="1"></line>
+						<line number="13" hits="2"></line>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="github.com/happyhippyhippo/slaterest/srenvelope" line-rate="1" branch-rate="0" complexity="0" line-count="125" line-hits="125">
+			<classes>
+				<class name="-" filename="srenvelope/list_report.go" line-rate="1" branch-rate="0" complexity="0" line-count="10" line-hits="10">
+					<methods>
+						<method name="NewListReport" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="23" hits="8"></line>
+								<line number="24" hits="8"></line>
+								<line number="25" hits="7"></line>
+								<line number="26" hits="7"></line>
+								<line number="27" hits="4"></line>
+								<line number="29" hits="7"></line>
+								<line number="32" hits="8"></line>
+								<line number="33" hits="8"></line>
+								<line number="34" hits="5"></line>
+								<line number="37" hits="8"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="23" hits="8"></line>
+						<line number="24" hits="8"></line>
+						<line number="25" hits="7"></line>
+						<line number="26" hits="7"></line>
+						<line number="27" hits="4"></line>
+						<line number="29" hits="7"></line>
+						<line number="32" hits="8"></line>
+						<line number="33" hits="8"></line>
+						<line number="34" hits="5"></line>
+						<line number="37" hits="8"></line>
+					</lines>
+				</class>
+				<class name="-" filename="srenvelope/middleware.go" line-rate="1" branch-rate="0" complexity="0" line-count="37" line-hits="37">
+					<methods>
+						<method name="NewMiddlewareGenerator" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="16" hits="15"></line>
+								<line number="17" hits="1"></line>
+								<line number="20" hits="14"></line>
+								<line number="21" hits="14"></line>
+								<line number="22" hits="1"></line>
+								<line number="25" hits="13"></line>
+								<line number="29" hits="13"></line>
+								<line number="30" hits="13"></line>
+								<line number="31" hits="1"></line>
+								<line number="34" hits="12"></line>
+								<line number="35" hits="12"></line>
+								<line number="36" hits="12"></line>
+								<line number="37" hits="12"></line>
+								<line number="41" hits="12"></line>
+								<line number="48" hits="12"></line>
+							</lines>
+						</method>
+						<method name="@25:43" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="26" hits="1"></line>
+							</lines>
+						</method>
+						<method name="@41:53" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="42" hits="1"></line>
+								<line number="43" hits="1"></line>
+								<line number="44" hits="1"></line>
+							</lines>
+						</method>
+						<method name="@48:9" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="49" hits="9"></line>
+								<line number="50" hits="9"></line>
+								<line number="51" hits="1"></line>
+								<line number="54" hits="8"></line>
+							</lines>
+						</method>
+						<method name="@54:10" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="55" hits="8"></line>
+							</lines>
+						</method>
+						<method name="@55:11" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="56" hits="8"></line>
+								<line number="81" hits="8"></line>
+								<line number="87" hits="8"></line>
+								<line number="89" hits="8"></line>
+								<line number="90" hits="5"></line>
+							</lines>
+						</method>
+						<method name="@56:14" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="57" hits="7"></line>
+								<line number="59" hits="7"></line>
+								<line number="61" hits="1"></line>
+								<line number="63" hits="4"></line>
+								<line number="67" hits="2"></line>
+								<line number="72" hits="7"></line>
+							</lines>
+						</method>
+						<method name="@81:11" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="82" hits="8"></line>
+								<line number="83" hits="2"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="16" hits="15"></line>
+						<line number="17" hits="1"></line>
+						<line number="20" hits="14"></line>
+						<line number="21" hits="14"></line>
+						<line number="22" hits="1"></line>
+						<line number="25" hits="13"></line>
+						<line number="29" hits="13"></line>
+						<line number="30" hits="13"></line>
+						<line number="31" hits="1"></line>
+						<line number="34" hits="12"></line>
+						<line number="35" hits="12"></line>
+						<line number="36" hits="12"></line>
+						<line number="37" hits="12"></line>
+						<line number="41" hits="12"></line>
+						<line number="48" hits="12"></line>
+						<line number="26" hits="1"></line>
+						<line number="42" hits="1"></line>
+						<line number="43" hits="1"></line>
+						<line number="44" hits="1"></line>
+						<line number="49" hits="9"></line>
+						<line number="50" hits="9"></line>
+						<line number="51" hits="1"></line>
+						<line number="54" hits="8"></line>
+						<line number="55" hits="8"></line>
+						<line number="56" hits="8"></line>
+						<line number="81" hits="8"></line>
+						<line number="87" hits="8"></line>
+						<line number="89" hits="8"></line>
+						<line number="90" hits="5"></line>
+						<line number="57" hits="7"></line>
+						<line number="59" hits="7"></line>
+						<line number="61" hits="1"></line>
+						<line number="63" hits="4"></line>
+						<line number="67" hits="2"></line>
+						<line number="72" hits="7"></line>
+						<line number="82" hits="8"></line>
+						<line number="83" hits="2"></line>
+					</lines>
+				</class>
+				<class name="Provider" filename="srenvelope/provider.go" line-rate="1" branch-rate="0" complexity="0" line-count="7" line-hits="7">
+					<methods>
+						<method name="Register" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="16" hits="7"></line>
+								<line number="17" hits="1"></line>
+								<line number="20" hits="6"></line>
+								<line number="29" hits="6"></line>
+							</lines>
+						</method>
+						<method name="Boot" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="34" hits="2"></line>
+								<line number="35" hits="1"></line>
+								<line number="38" hits="1"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="16" hits="7"></line>
+						<line number="17" hits="1"></line>
+						<line number="20" hits="6"></line>
+						<line number="29" hits="6"></line>
+						<line number="34" hits="2"></line>
+						<line number="35" hits="1"></line>
+						<line number="38" hits="1"></line>
+					</lines>
+				</class>
+				<class name="-" filename="srenvelope/provider.go" line-rate="1" branch-rate="0" complexity="0" line-count="4" line-hits="4">
+					<methods>
+						<method name="@20:29" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="21" hits="4"></line>
+								<line number="22" hits="4"></line>
+								<line number="23" hits="2"></line>
+								<line number="26" hits="2"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="21" hits="4"></line>
+						<line number="22" hits="4"></line>
+						<line number="23" hits="2"></line>
+						<line number="26" hits="2"></line>
+					</lines>
+				</class>
+				<class name="-" filename="srenvelope/container.go" line-rate="1" branch-rate="0" complexity="0" line-count="7" line-hits="7">
+					<methods>
+						<method name="GetMiddlewareGenerator" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="11" hits="3"></line>
+								<line number="12" hits="3"></line>
+								<line number="13" hits="1"></line>
+								<line number="16" hits="2"></line>
+								<line number="17" hits="2"></line>
+								<line number="18" hits="1"></line>
+								<line number="20" hits="1"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="11" hits="3"></line>
+						<line number="12" hits="3"></line>
+						<line number="13" hits="1"></line>
+						<line number="16" hits="2"></line>
+						<line number="17" hits="2"></line>
+						<line number="18" hits="1"></line>
+						<line number="20" hits="1"></line>
+					</lines>
+				</class>
+				<class name="Envelope" filename="srenvelope/envelope.go" line-rate="1" branch-rate="0" complexity="0" line-count="7" line-hits="7">
+					<methods>
+						<method name="GetStatusCode" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="28" hits="8"></line>
+							</lines>
+						</method>
+						<method name="SetService" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="33" hits="8"></line>
+								<line number="34" hits="8"></line>
+							</lines>
+						</method>
+						<method name="SetEndpoint" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="39" hits="8"></line>
+								<line number="40" hits="8"></line>
+							</lines>
+						</method>
+						<method name="AddError" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="45" hits="16"></line>
+								<line number="46" hits="16"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="28" hits="8"></line>
+						<line number="33" hits="8"></line>
+						<line number="34" hits="8"></line>
+						<line number="39" hits="8"></line>
+						<line number="40" hits="8"></line>
+						<line number="45" hits="16"></line>
+						<line number="46" hits="16"></line>
+					</lines>
+				</class>
+				<class name="-" filename="srenvelope/envelope.go" line-rate="1" branch-rate="0" complexity="0" line-count="1" line-hits="1">
+					<methods>
+						<method name="NewEnvelope" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="18" hits="14"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="18" hits="14"></line>
+					</lines>
+				</class>
+				<class name="-" filename="srenvelope/errors.go" line-rate="1" branch-rate="0" complexity="0" line-count="2" line-hits="2">
+					<methods>
+						<method name="errNilPointer" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="9" hits="4"></line>
+							</lines>
+						</method>
+						<method name="errConversion" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="13" hits="2"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="9" hits="4"></line>
+						<line number="13" hits="2"></line>
+					</lines>
+				</class>
+				<class name="-" filename="srenvelope/status.go" line-rate="1" branch-rate="0" complexity="0" line-count="1" line-hits="1">
+					<methods>
+						<method name="NewStatus" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="12" hits="19"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="12" hits="19"></line>
+					</lines>
+				</class>
+				<class name="Status" filename="srenvelope/status.go" line-rate="1" branch-rate="0" complexity="0" line-count="9" line-hits="9">
+					<methods>
+						<method name="AddError" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="20" hits="26"></line>
+								<line number="21" hits="26"></line>
+								<line number="22" hits="26"></line>
+							</lines>
+						</method>
+						<method name="SetService" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="27" hits="9"></line>
+								<line number="28" hits="12"></line>
+								<line number="30" hits="9"></line>
+							</lines>
+						</method>
+						<method name="SetEndpoint" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="35" hits="9"></line>
+								<line number="36" hits="12"></line>
+								<line number="38" hits="9"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="20" hits="26"></line>
+						<line number="21" hits="26"></line>
+						<line number="22" hits="26"></line>
+						<line number="27" hits="9"></line>
+						<line number="28" hits="12"></line>
+						<line number="30" hits="9"></line>
+						<line number="35" hits="9"></line>
+						<line number="36" hits="12"></line>
+						<line number="38" hits="9"></line>
+					</lines>
+				</class>
+				<class name="-" filename="srenvelope/status_error.go" line-rate="1" branch-rate="0" complexity="0" line-count="1" line-hits="1">
+					<methods>
+						<method name="NewStatusError" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="23" hits="42"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="23" hits="42"></line>
+					</lines>
+				</class>
+				<class name="StatusError" filename="srenvelope/status_error.go" line-rate="1" branch-rate="0" complexity="0" line-count="31" line-hits="31">
+					<methods>
+						<method name="SetService" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="31" hits="20"></line>
+								<line number="32" hits="20"></line>
+							</lines>
+						</method>
+						<method name="SetEndpoint" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="37" hits="20"></line>
+								<line number="38" hits="20"></line>
+							</lines>
+						</method>
+						<method name="SetParam" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="43" hits="4"></line>
+								<line number="44" hits="4"></line>
+							</lines>
+						</method>
+						<method name="SetError" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="49" hits="5"></line>
+								<line number="50" hits="5"></line>
+							</lines>
+						</method>
+						<method name="SetMessage" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="55" hits="1"></line>
+								<line number="56" hits="1"></line>
+							</lines>
+						</method>
+						<method name="GetCode" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="61" hits="1"></line>
+							</lines>
+						</method>
+						<method name="GetMessage" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="66" hits="1"></line>
+							</lines>
+						</method>
+						<method name="compose" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="70" hits="91"></line>
+								<line number="72" hits="91"></line>
+								<line number="73" hits="39"></line>
+								<line number="76" hits="91"></line>
+								<line number="77" hits="26"></line>
+								<line number="78" hits="19"></line>
+								<line number="80" hits="26"></line>
+								<line number="83" hits="91"></line>
+								<line number="84" hits="7"></line>
+								<line number="85" hits="6"></line>
+								<line number="87" hits="7"></line>
+								<line number="90" hits="91"></line>
+								<line number="91" hits="91"></line>
+								<line number="92" hits="47"></line>
+								<line number="95" hits="91"></line>
+								<line number="96" hits="3"></line>
+								<line number="98" hits="88"></line>
+								<line number="102" hits="91"></line>
+								<line number="104" hits="91"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="31" hits="20"></line>
+						<line number="32" hits="20"></line>
+						<line number="37" hits="20"></line>
+						<line number="38" hits="20"></line>
+						<line number="43" hits="4"></line>
+						<line number="44" hits="4"></line>
+						<line number="49" hits="5"></line>
+						<line number="50" hits="5"></line>
+						<line number="55" hits="1"></line>
+						<line number="56" hits="1"></line>
+						<line number="61" hits="1"></line>
+						<line number="66" hits="1"></line>
+						<line number="70" hits="91"></line>
+						<line number="72" hits="91"></line>
+						<line number="73" hits="39"></line>
+						<line number="76" hits="91"></line>
+						<line number="77" hits="26"></line>
+						<line number="78" hits="19"></line>
+						<line number="80" hits="26"></line>
+						<line number="83" hits="91"></line>
+						<line number="84" hits="7"></line>
+						<line number="85" hits="6"></line>
+						<line number="87" hits="7"></line>
+						<line number="90" hits="91"></line>
+						<line number="91" hits="91"></line>
+						<line number="92" hits="47"></line>
+						<line number="95" hits="91"></line>
+						<line number="96" hits="3"></line>
+						<line number="98" hits="88"></line>
+						<line number="102" hits="91"></line>
+						<line number="104" hits="91"></line>
+					</lines>
+				</class>
+				<class name="StatusErrorList" filename="srenvelope/status_error_list.go" line-rate="1" branch-rate="0" complexity="0" line-count="8" line-hits="8">
+					<methods>
+						<method name="MarshalXML" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="12" hits="4"></line>
+								<line number="13" hits="4"></line>
+								<line number="14" hits="5"></line>
+								<line number="15" hits="5"></line>
+								<line number="22" hits="5"></line>
+								<line number="24" hits="4"></line>
+								<line number="25" hits="4"></line>
+								<line number="27" hits="4"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="12" hits="4"></line>
+						<line number="13" hits="4"></line>
+						<line number="14" hits="5"></line>
+						<line number="15" hits="5"></line>
+						<line number="22" hits="5"></line>
+						<line number="24" hits="4"></line>
+						<line number="25" hits="4"></line>
+						<line number="27" hits="4"></line>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="github.com/happyhippyhippo/slaterest/srlog" line-rate="1" branch-rate="0" complexity="0" line-count="176" line-hits="176">
+			<classes>
+				<class name="-" filename="srlog/middleware.go" line-rate="1" branch-rate="0" complexity="0" line-count="18" line-hits="18">
+					<methods>
+						<method name="NewMiddleware" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="17" hits="19"></line>
+								<line number="18" hits="1"></line>
+								<line number="20" hits="18"></line>
+								<line number="21" hits="1"></line>
+								<line number="23" hits="17"></line>
+								<line number="24" hits="1"></line>
+								<line number="27" hits="16"></line>
+							</lines>
+						</method>
+						<method name="@27:9" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="28" hits="1"></line>
+							</lines>
+						</method>
+						<method name="@28:10" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="29" hits="1"></line>
+								<line number="30" hits="1"></line>
+								<line number="32" hits="1"></line>
+								<line number="33" hits="1"></line>
+								<line number="42" hits="1"></line>
+								<line number="43" hits="1"></line>
+								<line number="44" hits="1"></line>
+								<line number="46" hits="1"></line>
+								<line number="48" hits="1"></line>
+								<line number="49" hits="1"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="17" hits="19"></line>
+						<line number="18" hits="1"></line>
+						<line number="20" hits="18"></line>
+						<line number="21" hits="1"></line>
+						<line number="23" hits="17"></line>
+						<line number="24" hits="1"></line>
+						<line number="27" hits="16"></line>
+						<line number="28" hits="1"></line>
+						<line number="29" hits="1"></line>
+						<line number="30" hits="1"></line>
+						<line number="32" hits="1"></line>
+						<line number="33" hits="1"></line>
+						<line number="42" hits="1"></line>
+						<line number="43" hits="1"></line>
+						<line number="44" hits="1"></line>
+						<line number="46" hits="1"></line>
+						<line number="48" hits="1"></line>
+						<line number="49" hits="1"></line>
+					</lines>
+				</class>
+				<class name="-" filename="srlog/request_reader_decorator_json.go" line-rate="1" branch-rate="0" complexity="0" line-count="13" line-hits="13">
+					<methods>
+						<method name="NewRequestReaderDecoratorJSON" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="13" hits="16"></line>
+								<line number="14" hits="1"></line>
+								<line number="17" hits="15"></line>
+							</lines>
+						</method>
+						<method name="@17:9" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="18" hits="6"></line>
+								<line number="19" hits="1"></line>
+								<line number="22" hits="5"></line>
+								<line number="23" hits="5"></line>
+								<line number="24" hits="1"></line>
+								<line number="27" hits="4"></line>
+								<line number="28" hits="4"></line>
+								<line number="29" hits="2"></line>
+								<line number="30" hits="1"></line>
+								<line number="34" hits="4"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="13" hits="16"></line>
+						<line number="14" hits="1"></line>
+						<line number="17" hits="15"></line>
+						<line number="18" hits="6"></line>
+						<line number="19" hits="1"></line>
+						<line number="22" hits="5"></line>
+						<line number="23" hits="5"></line>
+						<line number="24" hits="1"></line>
+						<line number="27" hits="4"></line>
+						<line number="28" hits="4"></line>
+						<line number="29" hits="2"></line>
+						<line number="30" hits="1"></line>
+						<line number="34" hits="4"></line>
+					</lines>
+				</class>
+				<class name="-" filename="srlog/request_reader_decorator_xml.go" line-rate="1" branch-rate="0" complexity="0" line-count="13" line-hits="13">
+					<methods>
+						<method name="NewRequestReaderDecoratorXML" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="13" hits="14"></line>
+								<line number="14" hits="1"></line>
+								<line number="17" hits="13"></line>
+							</lines>
+						</method>
+						<method name="@17:9" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="18" hits="7"></line>
+								<line number="19" hits="1"></line>
+								<line number="22" hits="6"></line>
+								<line number="23" hits="6"></line>
+								<line number="24" hits="1"></line>
+								<line number="27" hits="5"></line>
+								<line number="28" hits="5"></line>
+								<line number="29" hits="3"></line>
+								<line number="30" hits="2"></line>
+								<line number="34" hits="5"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="13" hits="14"></line>
+						<line number="14" hits="1"></line>
+						<line number="17" hits="13"></line>
+						<line number="18" hits="7"></line>
+						<line number="19" hits="1"></line>
+						<line number="22" hits="6"></line>
+						<line number="23" hits="6"></line>
+						<line number="24" hits="1"></line>
+						<line number="27" hits="5"></line>
+						<line number="28" hits="5"></line>
+						<line number="29" hits="3"></line>
+						<line number="30" hits="2"></line>
+						<line number="34" hits="5"></line>
+					</lines>
+				</class>
+				<class name="-" filename="srlog/request_reader_default.go" line-rate="1" branch-rate="0" complexity="0" line-count="19" line-hits="19">
+					<methods>
+						<method name="RequestReaderDefault" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="13" hits="2"></line>
+								<line number="14" hits="1"></line>
+								<line number="17" hits="1"></line>
+								<line number="18" hits="1"></line>
+								<line number="19" hits="2"></line>
+								<line number="20" hits="1"></line>
+								<line number="22" hits="1"></line>
+								<line number="26" hits="1"></line>
+							</lines>
+						</method>
+						<method name="requestHeaders" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="36" hits="1"></line>
+								<line number="37" hits="1"></line>
+								<line number="38" hits="2"></line>
+								<line number="39" hits="1"></line>
+								<line number="41" hits="1"></line>
+								<line number="44" hits="1"></line>
+							</lines>
+						</method>
+						<method name="requestBody" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="48" hits="1"></line>
+								<line number="49" hits="1"></line>
+								<line number="50" hits="1"></line>
+								<line number="52" hits="1"></line>
+								<line number="53" hits="1"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="13" hits="2"></line>
+						<line number="14" hits="1"></line>
+						<line number="17" hits="1"></line>
+						<line number="18" hits="1"></line>
+						<line number="19" hits="2"></line>
+						<line number="20" hits="1"></line>
+						<line number="22" hits="1"></line>
+						<line number="26" hits="1"></line>
+						<line number="36" hits="1"></line>
+						<line number="37" hits="1"></line>
+						<line number="38" hits="2"></line>
+						<line number="39" hits="1"></line>
+						<line number="41" hits="1"></line>
+						<line number="44" hits="1"></line>
+						<line number="48" hits="1"></line>
+						<line number="49" hits="1"></line>
+						<line number="50" hits="1"></line>
+						<line number="52" hits="1"></line>
+						<line number="53" hits="1"></line>
+					</lines>
+				</class>
+				<class name="-" filename="srlog/response_reader_decorator_json.go" line-rate="1" branch-rate="0" complexity="0" line-count="16" line-hits="16">
+					<methods>
+						<method name="NewResponseReaderDecoratorJSON" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="13" hits="19"></line>
+								<line number="14" hits="1"></line>
+								<line number="17" hits="18"></line>
+							</lines>
+						</method>
+						<method name="@17:9" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="18" hits="9"></line>
+								<line number="19" hits="1"></line>
+								<line number="21" hits="8"></line>
+								<line number="22" hits="1"></line>
+								<line number="25" hits="7"></line>
+								<line number="26" hits="7"></line>
+								<line number="27" hits="1"></line>
+								<line number="30" hits="6"></line>
+								<line number="31" hits="5"></line>
+								<line number="32" hits="5"></line>
+								<line number="33" hits="3"></line>
+								<line number="34" hits="2"></line>
+								<line number="39" hits="6"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="13" hits="19"></line>
+						<line number="14" hits="1"></line>
+						<line number="17" hits="18"></line>
+						<line number="18" hits="9"></line>
+						<line number="19" hits="1"></line>
+						<line number="21" hits="8"></line>
+						<line number="22" hits="1"></line>
+						<line number="25" hits="7"></line>
+						<line number="26" hits="7"></line>
+						<line number="27" hits="1"></line>
+						<line number="30" hits="6"></line>
+						<line number="31" hits="5"></line>
+						<line number="32" hits="5"></line>
+						<line number="33" hits="3"></line>
+						<line number="34" hits="2"></line>
+						<line number="39" hits="6"></line>
+					</lines>
+				</class>
+				<class name="-" filename="srlog/container.go" line-rate="1" branch-rate="0" complexity="0" line-count="21" line-hits="21">
+					<methods>
+						<method name="GetMiddlewareOk" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="11" hits="3"></line>
+								<line number="12" hits="3"></line>
+								<line number="13" hits="1"></line>
+								<line number="16" hits="2"></line>
+								<line number="17" hits="2"></line>
+								<line number="18" hits="1"></line>
+								<line number="20" hits="1"></line>
+							</lines>
+						</method>
+						<method name="GetMiddlewareCreated" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="26" hits="3"></line>
+								<line number="27" hits="3"></line>
+								<line number="28" hits="1"></line>
+								<line number="31" hits="2"></line>
+								<line number="32" hits="2"></line>
+								<line number="33" hits="1"></line>
+								<line number="35" hits="1"></line>
+							</lines>
+						</method>
+						<method name="GetMiddlewareNoContent" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="41" hits="3"></line>
+								<line number="42" hits="3"></line>
+								<line number="43" hits="1"></line>
+								<line number="46" hits="2"></line>
+								<line number="47" hits="2"></line>
+								<line number="48" hits="1"></line>
+								<line number="50" hits="1"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="11" hits="3"></line>
+						<line number="12" hits="3"></line>
+						<line number="13" hits="1"></line>
+						<line number="16" hits="2"></line>
+						<line number="17" hits="2"></line>
+						<line number="18" hits="1"></line>
+						<line number="20" hits="1"></line>
+						<line number="26" hits="3"></line>
+						<line number="27" hits="3"></line>
+						<line number="28" hits="1"></line>
+						<line number="31" hits="2"></line>
+						<line number="32" hits="2"></line>
+						<line number="33" hits="1"></line>
+						<line number="35" hits="1"></line>
+						<line number="41" hits="3"></line>
+						<line number="42" hits="3"></line>
+						<line number="43" hits="1"></line>
+						<line number="46" hits="2"></line>
+						<line number="47" hits="2"></line>
+						<line number="48" hits="1"></line>
+						<line number="50" hits="1"></line>
+					</lines>
+				</class>
+				<class name="-" filename="srlog/errors.go" line-rate="1" branch-rate="0" complexity="0" line-count="2" line-hits="2">
+					<methods>
+						<method name="errNilPointer" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="9" hits="21"></line>
+							</lines>
+						</method>
+						<method name="errConversion" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="13" hits="4"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="9" hits="21"></line>
+						<line number="13" hits="4"></line>
+					</lines>
+				</class>
+				<class name="-" filename="srlog/globals.go" line-rate="1" branch-rate="0" complexity="0" line-count="4" line-hits="4">
+					<methods>
+						<method name="envToLogLevel" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="75" hits="15"></line>
+								<line number="76" hits="15"></line>
+								<line number="77" hits="3"></line>
+								<line number="79" hits="12"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="75" hits="15"></line>
+						<line number="76" hits="15"></line>
+						<line number="77" hits="3"></line>
+						<line number="79" hits="12"></line>
+					</lines>
+				</class>
+				<class name="-" filename="srlog/response_reader_decorator_xml.go" line-rate="1" branch-rate="0" complexity="0" line-count="16" line-hits="16">
+					<methods>
+						<method name="NewResponseReaderDecoratorXML" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="13" hits="16"></line>
+								<line number="14" hits="1"></line>
+								<line number="17" hits="15"></line>
+							</lines>
+						</method>
+						<method name="@17:9" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="18" hits="9"></line>
+								<line number="19" hits="1"></line>
+								<line number="21" hits="8"></line>
+								<line number="22" hits="1"></line>
+								<line number="25" hits="7"></line>
+								<line number="26" hits="7"></line>
+								<line number="27" hits="1"></line>
+								<line number="30" hits="6"></line>
+								<line number="31" hits="5"></line>
+								<line number="32" hits="5"></line>
+								<line number="33" hits="3"></line>
+								<line number="34" hits="2"></line>
+								<line number="39" hits="6"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="13" hits="16"></line>
+						<line number="14" hits="1"></line>
+						<line number="17" hits="15"></line>
+						<line number="18" hits="9"></line>
+						<line number="19" hits="1"></line>
+						<line number="21" hits="8"></line>
+						<line number="22" hits="1"></line>
+						<line number="25" hits="7"></line>
+						<line number="26" hits="7"></line>
+						<line number="27" hits="1"></line>
+						<line number="30" hits="6"></line>
+						<line number="31" hits="5"></line>
+						<line number="32" hits="5"></line>
+						<line number="33" hits="3"></line>
+						<line number="34" hits="2"></line>
+						<line number="39" hits="6"></line>
+					</lines>
+				</class>
+				<class name="-" filename="srlog/response_reader_default.go" line-rate="1" branch-rate="0" complexity="0" line-count="14" line-hits="14">
+					<methods>
+						<method name="NewResponseReaderDefault" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="8" hits="20"></line>
+							</lines>
+						</method>
+						<method name="@8:9" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="9" hits="3"></line>
+								<line number="10" hits="1"></line>
+								<line number="13" hits="2"></line>
+								<line number="14" hits="2"></line>
+								<line number="19" hits="2"></line>
+								<line number="20" hits="1"></line>
+								<line number="23" hits="2"></line>
+							</lines>
+						</method>
+						<method name="responseHeaders" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="28" hits="2"></line>
+								<line number="29" hits="2"></line>
+								<line number="30" hits="4"></line>
+								<line number="31" hits="2"></line>
+								<line number="33" hits="2"></line>
+								<line number="36" hits="2"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="8" hits="20"></line>
+						<line number="9" hits="3"></line>
+						<line number="10" hits="1"></line>
+						<line number="13" hits="2"></line>
+						<line number="14" hits="2"></line>
+						<line number="19" hits="2"></line>
+						<line number="20" hits="1"></line>
+						<line number="23" hits="2"></line>
+						<line number="28" hits="2"></line>
+						<line number="29" hits="2"></line>
+						<line number="30" hits="4"></line>
+						<line number="31" hits="2"></line>
+						<line number="33" hits="2"></line>
+						<line number="36" hits="2"></line>
+					</lines>
+				</class>
+				<class name="Provider" filename="srlog/provider.go" line-rate="1" branch-rate="0" complexity="0" line-count="10" line-hits="10">
+					<methods>
+						<method name="Register" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="18" hits="21"></line>
+								<line number="19" hits="1"></line>
+								<line number="22" hits="20"></line>
+								<line number="39" hits="20"></line>
+								<line number="50" hits="20"></line>
+								<line number="61" hits="20"></line>
+								<line number="72" hits="20"></line>
+							</lines>
+						</method>
+						<method name="Boot" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="80" hits="2"></line>
+								<line number="81" hits="1"></line>
+								<line number="84" hits="1"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="18" hits="21"></line>
+						<line number="19" hits="1"></line>
+						<line number="22" hits="20"></line>
+						<line number="39" hits="20"></line>
+						<line number="50" hits="20"></line>
+						<line number="61" hits="20"></line>
+						<line number="72" hits="20"></line>
+						<line number="80" hits="2"></line>
+						<line number="81" hits="1"></line>
+						<line number="84" hits="1"></line>
+					</lines>
+				</class>
+				<class name="-" filename="srlog/provider.go" line-rate="1" branch-rate="0" complexity="0" line-count="24" line-hits="24">
+					<methods>
+						<method name="@22:19" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="23" hits="15"></line>
+								<line number="24" hits="15"></line>
+								<line number="26" hits="15"></line>
+								<line number="27" hits="9"></line>
+								<line number="28" hits="9"></line>
+								<line number="31" hits="15"></line>
+								<line number="32" hits="6"></line>
+								<line number="33" hits="6"></line>
+								<line number="36" hits="15"></line>
+							</lines>
+						</method>
+						<method name="@39:31" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="40" hits="6"></line>
+								<line number="41" hits="6"></line>
+								<line number="42" hits="1"></line>
+								<line number="45" hits="5"></line>
+								<line number="47" hits="5"></line>
+							</lines>
+						</method>
+						<method name="@50:36" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="51" hits="6"></line>
+								<line number="52" hits="6"></line>
+								<line number="53" hits="1"></line>
+								<line number="56" hits="5"></line>
+								<line number="58" hits="5"></line>
+							</lines>
+						</method>
+						<method name="@61:38" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="62" hits="6"></line>
+								<line number="63" hits="6"></line>
+								<line number="64" hits="1"></line>
+								<line number="67" hits="5"></line>
+								<line number="69" hits="5"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="23" hits="15"></line>
+						<line number="24" hits="15"></line>
+						<line number="26" hits="15"></line>
+						<line number="27" hits="9"></line>
+						<line number="28" hits="9"></line>
+						<line number="31" hits="15"></line>
+						<line number="32" hits="6"></line>
+						<line number="33" hits="6"></line>
+						<line number="36" hits="15"></line>
+						<line number="40" hits="6"></line>
+						<line number="41" hits="6"></line>
+						<line number="42" hits="1"></line>
+						<line number="45" hits="5"></line>
+						<line number="47" hits="5"></line>
+						<line number="51" hits="6"></line>
+						<line number="52" hits="6"></line>
+						<line number="53" hits="1"></line>
+						<line number="56" hits="5"></line>
+						<line number="58" hits="5"></line>
+						<line number="62" hits="6"></line>
+						<line number="63" hits="6"></line>
+						<line number="64" hits="1"></line>
+						<line number="67" hits="5"></line>
+						<line number="69" hits="5"></line>
+					</lines>
+				</class>
+				<class name="-" filename="srlog/response_writer.go" line-rate="1" branch-rate="0" complexity="0" line-count="3" line-hits="3">
+					<methods>
+						<method name="newResponseWriter" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="21" hits="19"></line>
+								<line number="22" hits="1"></line>
+								<line number="25" hits="18"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="21" hits="19"></line>
+						<line number="22" hits="1"></line>
+						<line number="25" hits="18"></line>
+					</lines>
+				</class>
+				<class name="writer" filename="srlog/response_writer.go" line-rate="1" branch-rate="0" complexity="0" line-count="3" line-hits="3">
+					<methods>
+						<method name="Write" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="34" hits="1"></line>
+								<line number="35" hits="1"></line>
+							</lines>
+						</method>
+						<method name="Body" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="41" hits="2"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="34" hits="1"></line>
+						<line number="35" hits="1"></line>
+						<line number="41" hits="2"></line>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="github.com/happyhippyhippo/slaterest/srvalidation" line-rate="1" branch-rate="0" complexity="0" line-count="98" line-hits="98">
+			<classes>
+				<class name="-" filename="srvalidation/provider.go" line-rate="1" branch-rate="0" complexity="0" line-count="22" line-hits="22">
+					<methods>
+						<method name="@23:48" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="24" hits="12"></line>
+								<line number="25" hits="12"></line>
+							</lines>
+						</method>
+						<method name="@28:39" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="29" hits="12"></line>
+								<line number="30" hits="12"></line>
+								<line number="31" hits="2"></line>
+								<line number="34" hits="10"></line>
+								<line number="35" hits="10"></line>
+								<line number="36" hits="3"></line>
+								<line number="39" hits="7"></line>
+							</lines>
+						</method>
+						<method name="@42:35" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="43" hits="5"></line>
+								<line number="44" hits="5"></line>
+								<line number="45" hits="1"></line>
+								<line number="48" hits="4"></line>
+							</lines>
+						</method>
+						<method name="@51:29" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="52" hits="4"></line>
+								<line number="53" hits="4"></line>
+								<line number="54" hits="1"></line>
+								<line number="57" hits="3"></line>
+								<line number="58" hits="3"></line>
+								<line number="59" hits="1"></line>
+								<line number="62" hits="2"></line>
+								<line number="63" hits="2"></line>
+								<line number="65" hits="2"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="24" hits="12"></line>
+						<line number="25" hits="12"></line>
+						<line number="29" hits="12"></line>
+						<line number="30" hits="12"></line>
+						<line number="31" hits="2"></line>
+						<line number="34" hits="10"></line>
+						<line number="35" hits="10"></line>
+						<line number="36" hits="3"></line>
+						<line number="39" hits="7"></line>
+						<line number="43" hits="5"></line>
+						<line number="44" hits="5"></line>
+						<line number="45" hits="1"></line>
+						<line number="48" hits="4"></line>
+						<line number="52" hits="4"></line>
+						<line number="53" hits="4"></line>
+						<line number="54" hits="1"></line>
+						<line number="57" hits="3"></line>
+						<line number="58" hits="3"></line>
+						<line number="59" hits="1"></line>
+						<line number="62" hits="2"></line>
+						<line number="63" hits="2"></line>
+						<line number="65" hits="2"></line>
+					</lines>
+				</class>
+				<class name="Provider" filename="srvalidation/provider.go" line-rate="1" branch-rate="0" complexity="0" line-count="10" line-hits="10">
+					<methods>
+						<method name="Register" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="19" hits="19"></line>
+								<line number="20" hits="2"></line>
+								<line number="23" hits="17"></line>
+								<line number="28" hits="17"></line>
+								<line number="42" hits="17"></line>
+								<line number="51" hits="17"></line>
+								<line number="68" hits="17"></line>
+							</lines>
+						</method>
+						<method name="Boot" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="73" hits="2"></line>
+								<line number="74" hits="1"></line>
+								<line number="77" hits="1"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="19" hits="19"></line>
+						<line number="20" hits="2"></line>
+						<line number="23" hits="17"></line>
+						<line number="28" hits="17"></line>
+						<line number="42" hits="17"></line>
+						<line number="51" hits="17"></line>
+						<line number="68" hits="17"></line>
+						<line number="73" hits="2"></line>
+						<line number="74" hits="1"></line>
+						<line number="77" hits="1"></line>
+					</lines>
+				</class>
+				<class name="-" filename="srvalidation/validator.go" line-rate="1" branch-rate="0" complexity="0" line-count="10" line-hits="10">
+					<methods>
+						<method name="NewValidator" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="15" hits="9"></line>
+								<line number="16" hits="1"></line>
+								<line number="18" hits="8"></line>
+								<line number="19" hits="1"></line>
+								<line number="22" hits="7"></line>
+							</lines>
+						</method>
+						<method name="@22:9" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="23" hits="4"></line>
+								<line number="24" hits="1"></line>
+								<line number="27" hits="3"></line>
+								<line number="28" hits="2"></line>
+								<line number="31" hits="1"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="15" hits="9"></line>
+						<line number="16" hits="1"></line>
+						<line number="18" hits="8"></line>
+						<line number="19" hits="1"></line>
+						<line number="22" hits="7"></line>
+						<line number="23" hits="4"></line>
+						<line number="24" hits="1"></line>
+						<line number="27" hits="3"></line>
+						<line number="28" hits="2"></line>
+						<line number="31" hits="1"></line>
+					</lines>
+				</class>
+				<class name="-" filename="srvalidation/container.go" line-rate="1" branch-rate="0" complexity="0" line-count="28" line-hits="28">
+					<methods>
+						<method name="GetUniversalTranslator" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="11" hits="15"></line>
+								<line number="12" hits="15"></line>
+								<line number="13" hits="2"></line>
+								<line number="16" hits="13"></line>
+								<line number="17" hits="13"></line>
+								<line number="18" hits="2"></line>
+								<line number="20" hits="11"></line>
+							</lines>
+						</method>
+						<method name="GetTranslator" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="26" hits="12"></line>
+								<line number="27" hits="12"></line>
+								<line number="28" hits="3"></line>
+								<line number="31" hits="9"></line>
+								<line number="32" hits="9"></line>
+								<line number="33" hits="1"></line>
+								<line number="35" hits="8"></line>
+							</lines>
+						</method>
+						<method name="GetParser" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="41" hits="6"></line>
+								<line number="42" hits="6"></line>
+								<line number="43" hits="2"></line>
+								<line number="46" hits="4"></line>
+								<line number="47" hits="4"></line>
+								<line number="48" hits="1"></line>
+								<line number="50" hits="3"></line>
+							</lines>
+						</method>
+						<method name="GetValidator" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="56" hits="3"></line>
+								<line number="57" hits="3"></line>
+								<line number="58" hits="1"></line>
+								<line number="61" hits="2"></line>
+								<line number="62" hits="2"></line>
+								<line number="63" hits="1"></line>
+								<line number="65" hits="1"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="11" hits="15"></line>
+						<line number="12" hits="15"></line>
+						<line number="13" hits="2"></line>
+						<line number="16" hits="13"></line>
+						<line number="17" hits="13"></line>
+						<line number="18" hits="2"></line>
+						<line number="20" hits="11"></line>
+						<line number="26" hits="12"></line>
+						<line number="27" hits="12"></line>
+						<line number="28" hits="3"></line>
+						<line number="31" hits="9"></line>
+						<line number="32" hits="9"></line>
+						<line number="33" hits="1"></line>
+						<line number="35" hits="8"></line>
+						<line number="41" hits="6"></line>
+						<line number="42" hits="6"></line>
+						<line number="43" hits="2"></line>
+						<line number="46" hits="4"></line>
+						<line number="47" hits="4"></line>
+						<line number="48" hits="1"></line>
+						<line number="50" hits="3"></line>
+						<line number="56" hits="3"></line>
+						<line number="57" hits="3"></line>
+						<line number="58" hits="1"></line>
+						<line number="61" hits="2"></line>
+						<line number="62" hits="2"></line>
+						<line number="63" hits="1"></line>
+						<line number="65" hits="1"></line>
+					</lines>
+				</class>
+				<class name="-" filename="srvalidation/errors.go" line-rate="1" branch-rate="0" complexity="0" line-count="3" line-hits="3">
+					<methods>
+						<method name="errNilPointer" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="9" hits="12"></line>
+							</lines>
+						</method>
+						<method name="errConversion" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="13" hits="7"></line>
+							</lines>
+						</method>
+						<method name="errTranslatorNotFound" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="17" hits="7"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="9" hits="12"></line>
+						<line number="13" hits="7"></line>
+						<line number="17" hits="7"></line>
+					</lines>
+				</class>
+				<class name="-" filename="srvalidation/parser.go" line-rate="1" branch-rate="0" complexity="0" line-count="3" line-hits="3">
+					<methods>
+						<method name="NewParser" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="28" hits="15"></line>
+								<line number="29" hits="1"></line>
+								<line number="32" hits="14"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="28" hits="15"></line>
+						<line number="29" hits="1"></line>
+						<line number="32" hits="14"></line>
+					</lines>
+				</class>
+				<class name="parser" filename="srvalidation/parser.go" line-rate="1" branch-rate="0" complexity="0" line-count="22" line-hits="22">
+					<methods>
+						<method name="Parse" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="162" hits="9"></line>
+								<line number="163" hits="1"></line>
+								<line number="166" hits="8"></line>
+								<line number="167" hits="2"></line>
+								<line number="170" hits="6"></line>
+								<line number="171" hits="6"></line>
+								<line number="172" hits="6"></line>
+								<line number="173" hits="6"></line>
+								<line number="174" hits="2"></line>
+								<line number="176" hits="4"></line>
+								<line number="179" hits="4"></line>
+							</lines>
+						</method>
+						<method name="AddError" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="184" hits="1"></line>
+							</lines>
+						</method>
+						<method name="convert" signature="" line-rate="1" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="188" hits="6"></line>
+								<line number="189" hits="1"></line>
+								<line number="192" hits="5"></line>
+								<line number="193" hits="5"></line>
+								<line number="194" hits="5"></line>
+								<line number="195" hits="5"></line>
+								<line number="196" hits="2"></line>
+								<line number="197" hits="2"></line>
+								<line number="198" hits="1"></line>
+								<line number="202" hits="4"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="162" hits="9"></line>
+						<line number="163" hits="1"></line>
+						<line number="166" hits="8"></line>
+						<line number="167" hits="2"></line>
+						<line number="170" hits="6"></line>
+						<line number="171" hits="6"></line>
+						<line number="172" hits="6"></line>
+						<line number="173" hits="6"></line>
+						<line number="174" hits="2"></line>
+						<line number="176" hits="4"></line>
+						<line number="179" hits="4"></line>
+						<line number="184" hits="1"></line>
+						<line number="188" hits="6"></line>
+						<line number="189" hits="1"></line>
+						<line number="192" hits="5"></line>
+						<line number="193" hits="5"></line>
+						<line number="194" hits="5"></line>
+						<line number="195" hits="5"></line>
+						<line number="196" hits="2"></line>
+						<line number="197" hits="2"></line>
+						<line number="198" hits="1"></line>
+						<line number="202" hits="4"></line>
+					</lines>
+				</class>
+			</classes>
+		</package>
+	</packages>
+	<sources>
+		<source>/home/happyhippyhippo/Projects/go/slaterest</source>
+	</sources>
+</coverage>
